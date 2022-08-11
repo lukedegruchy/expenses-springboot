@@ -1,0 +1,10 @@
+spring:
+  application:
+    name:${project.name}
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/expenses"
+    username: expenses
+    password: expenses
+  jpa:
+    hibernate:
+      ddl-auto: none
